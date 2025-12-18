@@ -1,5 +1,5 @@
 # BiodiversityDevelopmentFinance
-Supplementary code for Wildgruber et al. (2026): A multi-dimensional view to map biodiversity development finance globally. Currently under review in Nature Sustainability.
+Supplementary code for Wildgruber et al. (2026): A multi-dimensional view to map biodiversity development finance globally. Currently under review.
 
 # Setup
 Tu run the code, use Python 3.10 or higher. The code has been developed and tested on Python 3.12.
