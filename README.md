@@ -15,15 +15,15 @@ Use the classifiers to replicate the training and validation of the classifiers 
 The relevance classifier '_Relevance classifier (BERT).py_' uses the underlying transformer model BiodivBERT which can be downloaded from  https://huggingface.co/NoYo25/BiodivBERT or from 
 [0] (see Data section). It performes the training on a randomized data subset of 2000 data points [1]. The resulting final model is stored in [2] and can be applied to unique entries of the OECD CRS data set [3] via the script '_Binary labeling_Full data set.py_'. 
 
-When running the code for replication, [0], [1], [2], and [3] need to be downloaded from the Drive and stored locally, before running the scripts. The resulting model and classification will be stored in '_outputs_'.
+When running the code for replication, [0], [1], [2], and [3] need to be downloaded from the Drive and stored locally in an '_inputs_' folder, before running the scripts. The resulting model and classification will be stored in '_outputs_'.
 
 ### 📁 Multi classification (LLM)
 For multi-classification, the '_DeepSeek Prompt.py_' is performed on the translated and relevance-filtered input dataset [4]. The resulting final output file after multi-classification via DeepSeek that was used in the paper is stored as [5]. Note that the multi-classification was performed on unique entries only and multi labels were postpopulated to the full dataset. 
 
-When running the code for replication, it is required to setup a token for accessing the DeepSeek API and to download the input file [4] from the GoogleDrive (see data section).the resulting multi-classified dataset will be stored in '_outputs_'.
+When running the code for replication, it is required to setup a token for accessing the DeepSeek API and to download and store the file [4] in an '_inputs_' folder.the resulting multi-classified dataset will be stored in '_outputs_'.
 
 ## 📁 Plots and tables
-The plots and tables that are displayed in the main paper or the supplementary information (SI) can be reproduced via the script '_Figures.py_' on the final dataset [6].
+The plots and tables that are displayed in the main paper or the supplementary information (SI) can be reproduced via the script '_Figures.py_' and with the stored files in '_inputs_' on the final dataset [6].
 
 # Data
 The final classified OECD CRS dataset (2000-2023) and all mentioned interim datasets can be downloaded here: [https://drive.google.com/drive/folders/1VIr1uq24tj3lfwnDTtK-d5eW2pKabvKO?usp=drive_link](https://drive.google.com/drive/folders/1cGY55poRvnYpdWHACAivPqaYpab2x692?usp=drive_link)
