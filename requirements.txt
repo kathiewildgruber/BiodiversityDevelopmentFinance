@@ -1,0 +1,12 @@
+chardet==5.2.0
+matplotlib==3.10.0
+numpy==2.2.4
+openai==1.74.0
+pandas==2.2.3
+plotly==6.1.2
+pycountry==24.6.1
+scikit-learn==1.6.1
+seaborn==0.13.2
+statsmodels==0.14.5
+torch==2.5.1
+transformers==4.40.0
